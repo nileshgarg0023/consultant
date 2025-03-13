@@ -12,7 +12,7 @@ import ContactSection from "@/components/ContactSection";
 import LocationsSection from "@/components/LocationsSection";
 import FooterSection from "@/components/FooterSection";
 
-export default function Home() {
+export default function DemoPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -53,6 +53,8 @@ export default function Home() {
       
       {/* Footer Section */}
       <FooterSection />
+      
+      {/* Additional sections can be added here */}
     </main>
   );
-}
+} 
